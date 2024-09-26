@@ -1,0 +1,26 @@
+"""Create userrole enum
+
+Revision ID: e397645d30df
+Revises: 
+Create Date: 2024-09-24 14:01:50.913183
+
+"""
+from typing import Sequence, Union
+
+from alembic import op
+import sqlalchemy as sa
+
+
+# revision identifiers, used by Alembic.
+revision: str = 'e397645d30df'
+down_revision: Union[str, None] = None
+branch_labels: Union[str, Sequence[str], None] = None
+depends_on: Union[str, Sequence[str], None] = None
+
+
+def upgrade() -> None:
+    pass
+
+
+def downgrade() -> None:
+    pass
